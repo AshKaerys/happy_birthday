@@ -15,6 +15,8 @@ body{
 }
 
 header{
+    position: absolute;
+    top: 0;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -36,7 +38,7 @@ header h1{
     justify-content: space-around;
     align-items: center;
     background-color: rgb(255, 223, 174);
-    width: 20em;
+    width: 15em;
     height: 10em;
     font-size: 2em;
     margin: auto;
@@ -46,3 +48,33 @@ header h1{
     border-width: 0.2em;
     border-radius: 1em;
 }
+
+.happy{
+    display: none;
+    text-align: center;
+    background-color: rgb(255, 223, 174);
+    width: 15em;
+    height: 10em;
+    font-size: 2em;
+    margin: auto;
+    margin-top: 10em;
+    border-style: solid;
+    border-color: rgb(183, 210, 255);
+    border-width: 0.2em;
+    border-radius: 1em;
+}
+
+footer{
+        position: absolute;
+        bottom: 0;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: rgb(183, 210, 255);
+        height: 5em;
+        width: 100%;
+        border: 0.5em;
+        border-style: solid;
+        border-color: rgb(227, 175, 179);
+    }
+
