@@ -10,8 +10,8 @@
 
 body{
     background-image: url(./pictures/background.jpg);
-    background-repeat: no-repeat;
     background-position: center top;
+    display: flex;
 }
 
 header{
@@ -30,7 +30,7 @@ header{
 
 header h1{
     font-family: courgette, animal;
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 .click{
@@ -42,7 +42,7 @@ header h1{
     height: 10em;
     font-size: 2em;
     margin: auto;
-    margin-top: 10em;
+    margin-top: 5em;
     border-style: solid;
     border-color: rgb(183, 210, 255);
     border-width: 0.2em;
@@ -54,18 +54,30 @@ header h1{
     text-align: center;
     background-color: rgb(255, 223, 174);
     width: 15em;
-    height: 10em;
+    height: 20em;
     font-size: 2em;
     margin: auto;
-    margin-top: 10em;
+    margin-top: 5em;
+    margin-bottom: 2em;
     border-style: solid;
     border-color: rgb(183, 210, 255);
     border-width: 0.2em;
     border-radius: 1em;
+    overflow: hidden;
+}
+
+.happy p{
+    font-size: 1em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.happy img{
+    width: 100%;
 }
 
 footer{
-        position: absolute;
+        position: fixed;
         bottom: 0;
         display: flex;
         justify-content: space-around;
@@ -76,5 +88,6 @@ footer{
         border: 0.5em;
         border-style: solid;
         border-color: rgb(227, 175, 179);
+        margin-top: 2em;
     }
 
