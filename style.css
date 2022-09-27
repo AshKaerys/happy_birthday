@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: calibri, sans-serif;
+    font-size: 18px;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    background-image: url(./pictures/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(183, 210, 255);
+    height: 5em;
+    width: 100%;
+    border: 0.5em;
+    border-style: solid;
+    border-color: rgb(227, 175, 179);
+}
+
+header h1{
+    font-family: courgette, animal;
+    font-size: 2em;
+}
